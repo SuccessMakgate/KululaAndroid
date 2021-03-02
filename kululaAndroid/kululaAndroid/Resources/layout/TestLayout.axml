@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:background="#ffc8e6c9">
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1"
+		android:background="@android:color/darker_gray">
+		<ImageButton
+			android:src="@drawable/profile"
+			android:layout_width="60dp"
+			android:layout_height="60dp"
+			android:id="@+id/main_btn_Logout" />
+		<TextView
+			android:paddingTop="15dp"
+			android:layout_toRightOf="@+id/main_btn_Logout"
+			android:text="Sign Out"
+			android:layout_width="60dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/textSign"
+			android:textAlignment="center"
+			android:textStyle="italic" />
+		<TextView
+			android:layout_below="@+id/textSign"
+			android:layout_toRightOf="@+id/main_btn_Logout"
+			android:text="makgate@gmail.com"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/textSignout"
+			android:textAlignment="center"
+			android:textStyle="italic" />
+	</RelativeLayout>
+	<ImageView
+		android:paddingTop="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/imageView1"
+		android:src="@drawable/kululaIcon"
+		android:fadingEdge="horizontal|vertical" />
+	<TextView
+		android:paddingTop="15dp"
+		android:text="Flght Book"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:textStyle="italic" />
+	<ImageButton
+		android:src="@drawable/airport"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/main_btn_flightBook"
+		android:requiresFadingEdge="horizontal"
+		android:pointerIcon="zoom_in"
+		/>
+	<TextView
+		android:paddingTop="15dp"
+		android:text="Car Hire"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:textStyle="italic" />
+	<ImageButton
+		android:src="@drawable/car"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/main_btn_carHire" />
+	<TextView
+		android:text="Dashboard"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:paddingTop="15dp"
+		android:textStyle="italic" />
+	<ImageButton
+		android:src="@drawable/dash"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/main_btn_dash" />
+</LinearLayout>

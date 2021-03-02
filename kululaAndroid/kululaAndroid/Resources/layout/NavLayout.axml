@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/container"
+	android:background="#ff8bc34a"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/main_LayoutSingout"
+		android:background="@android:color/darker_gray">
+		<ImageButton
+			android:src="@drawable/profile"
+			android:layout_width="60dp"
+			android:layout_height="60dp"
+			android:id="@+id/main_btn_Logout" />
+		<TextView
+			android:paddingTop="15dp"
+			android:layout_toRightOf="@+id/main_btn_Logout"
+			android:text="Sign Out"
+			android:layout_width="60dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/textSign"
+			android:textAlignment="center"
+			android:textStyle="italic" />
+		<TextView
+			android:layout_below="@+id/textSign"
+			android:layout_toRightOf="@+id/main_btn_Logout"
+			android:text="makgate@gmail.com"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/textSignout"
+			android:textAlignment="center"
+			android:textStyle="italic" />
+	</RelativeLayout>
+  <FrameLayout
+	android:id="@+id/fragment_container"
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:layout_marginTop="60dp"
+	android:layout_marginBottom="56dp">
+   </FrameLayout>
+	<android.support.design.widget.BottomNavigationView
+		android:id="@+id/navigation"
+		android:layout_centerInParent="true"
+		android:layout_width="360dp"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="0dp"
+		android:layout_marginStart="0dp"
+		android:background="?android:attr/windowBackground"
+		android:layout_alignParentBottom="true"
+		app:menu="@menu/navigation" />
+</RelativeLayout>

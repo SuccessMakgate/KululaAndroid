@@ -1,0 +1,30 @@
+<resources>
+  <string name="app_name">Kulula</string>
+  <string name="action_settings">Settings</string>
+  <string name="btn_sign_up">Sign Up</string>
+  <string name="female">Female</string>
+  <string name="hint_password">Password</string>
+  <string name="hint_gender">Gender</string>
+  <string name="hint_dob">Id Number</string>
+  <string name="male">Male</string>
+  <string name="btn_link_login">sign up with kulula T and Cs applies</string>
+  <string name="hint_ConfirmPassword">Confirm Password</string>
+  <string name="hint_address">Physical Address</string>
+  <string name="hint_phone">Tel/Mob Phone</string>
+  <string name="Activation">Please! Provide activation code that was sent to you recently</string>
+  <string name="car_prompt">Choose a Car</string>
+  <string name="receipt">Thank you for choosing kulula. payment approved TnCs apply</string>
+  <string-array name="car_array">
+    <item>Scorpio</item>
+    <item>xylo</item>
+    <item>Innovo</item>
+    <item>Benz</item>
+    <item>BMW</item>
+    <item>Audi</item>
+    <item>Jaguar</item>
+    <item>ferrari</item>
+  </string-array>
+  <string name="title_car">Car Hire</string>
+  <string name="title_dashboard">Dashboard</string>
+  <string name="title_flight">Flight Book</string>
+</resources>

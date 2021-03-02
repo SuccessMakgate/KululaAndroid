@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:minWidth="300dp"
+    android:minHeight="400dp">
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:background="@drawable/ListSelector">
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:layout_centerHorizontal="true"
+       android:textSize="30sp"
+       android:textStyle="bold"
+       android:text="Payment" />
+    <ImageView
+      android:src="@drawable/creditcards"
+      android:layout_width="fill_parent"
+      android:layout_height="match_parent"
+      android:minWidth="25px"
+      android:minHeight="25px"
+      android:id="@+id/imageView1" />
+  </LinearLayout>
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="90dp"
+  android:layout_marginHorizontal="10dp"
+      android:padding="15dp">
+    <EditText
+      android:layout_width="180dp"
+      android:layout_height="wrap_content"
+      android:id="@+id/payment_cardNO"
+      android:ems="10"
+      android:hint="Card Number"/>
+    <EditText
+         android:id="@+id/payment_cvv"
+         android:layout_width="180dp"
+         android:layout_height="wrap_content"
+         android:ems="10"
+	     android:inputType="date"
+		 android:layout_toRightOf="@+id/payment_cardNO"
+         android:hint="CVV"/>
+  </RelativeLayout>
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="90dp"
+  android:layout_marginHorizontal="10dp"
+      android:padding="15dp">
+    <EditText
+            android:id="@+id/payment_cardHolder"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Card Holder Name"/>
+  </RelativeLayout>
+
+  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+		    android:layout_marginHorizontal="10dp"
+        android:padding="15dp">
+    <EditText
+        android:id="@+id/payment_address"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Physical Addresss"/>
+    <EditText
+    android:layout_toRightOf="@+id/payment_address"
+        android:id="@+id/payment_city"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="City"/>
+  </RelativeLayout>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="90dp"
+  android:layout_marginHorizontal="10dp"
+      android:padding="10dp">
+
+    <Button android:id="@+id/payment_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:background="@color/login_button_background"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/black"/>
+  </RelativeLayout>
+ </LinearLayout>

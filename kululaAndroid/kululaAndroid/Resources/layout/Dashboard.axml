@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:minWidth="25px"
+	android:minHeight="25px"
+	android:gravity="center"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/linearLayout1"
+	android:background="#ffb9f6ca">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="100dp"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:background="#ffc8e6c9">
+		<Button
+			android:text="Discount History"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnDiscount_H" />
+	<Button
+		android:text="Flightbook History"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnFlightBook_H" />
+	<Button
+		android:text="CarHire History"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnCarHire_H" />
+	<Button
+		android:text="Update Profile"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/UpdateProfile" />
+	<Button
+		android:text="Change Password"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnChangePassword" /> 
+	 </LinearLayout>
+	<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="270dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/dashLayout">
+
+    	</LinearLayout>
+</LinearLayout>

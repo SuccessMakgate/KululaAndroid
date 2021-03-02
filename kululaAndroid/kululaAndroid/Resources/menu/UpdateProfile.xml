@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:padding="10dp"
+	android:background="#ff8bc34a"
+    android:minWidth="300dp"
+    android:minHeight="400dp">
+  <TextView
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:gravity="center"
+		android:layout_centerHorizontal="true"
+		android:textSize="30sp"
+		android:textStyle="bold"
+		android:text="Update Profile" />
+  <android.support.design.widget.TextInputLayout
+   android:layout_width="200dp"
+   android:layout_height="wrap_content"
+   android:layout_centerHorizontal="true"
+   android:layout_marginTop="10dp">
+    <EditText
+       android:id="@+id/dash_input_firstName"
+       android:layout_width="200dp"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:inputType="textPassword"
+       android:hint="First Name" />
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="10dp">
+    <EditText
+        android:id="@+id/dash_input_lastName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Last Name" />
+  </android.support.design.widget.TextInputLayout>
+  <android.support.design.widget.TextInputLayout
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp">
+    <EditText
+        android:id="@+id/dash_input_phoneNum"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Tel/Mob Phone" />
+  </android.support.design.widget.TextInputLayout>
+  <android.support.design.widget.TextInputLayout
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp">
+    <EditText
+        android:id="@+id/dash_input_PhysicalAddress"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Physical Address" />
+  </android.support.design.widget.TextInputLayout>
+
+  <Button android:id="@+id/btn_signup"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:text="Confirm"
+      android:background="@color/login_button_background"
+      android:layout_marginTop="40dp"
+      android:textColor="@android:color/white"/>
+</LinearLayout>
+
